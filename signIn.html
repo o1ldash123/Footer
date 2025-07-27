@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="site.css">
+       <script>
+         function changeLocation(param){
+            if (param = 'back') {
+                 window.location = 'Home.html'
+            }
+           
+         }
+       </script>
+    </head>
+    <body>
+        
+     <h2>-Sign in</h2>
+     <br><br>
+      <form action="">
+        <fieldset>
+            <legend>Sign in with Google</legend>
+             <button id="signInGoogle">G Sign in with Google</button>
+             <br>
+             <p>Or</p>
+             <br>
+              <span>Email</span><input type="text" id="email">
+              <br><br>
+              <span>Password</span><input type="password" id="password" >
+              <br><br>
+              <button  id="logIn">log in</button>
+              <br><br> 
+              <a href="#" id="dontHaveAcc">dont have an account ? sign up </a>
+
+        </fieldset>
+      </form>
+         <br><br><br><br>
+       <button id="back" onclick="changeLocation('back')">Back</button>
+        
+    </body>
+</html>
